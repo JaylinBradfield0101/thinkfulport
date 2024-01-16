@@ -18,7 +18,16 @@ h3 {
 
 /* Header */
 header {
+  background-color: #eae2b7;
+  color:#003049;
+  padding: 20px;
+  display: flex;
   text-align: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
 }
 
 /* Containers */
@@ -36,6 +45,37 @@ article div {
   text-align: center;
   width: 100%;
 }
+.flex-man {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-section {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 20px;
+}
+.inline-space {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-between;
+}
+.text-container {
+  text-align: right;
+  flex-direction: row;
+  flex: 1;
+  margin-left: 20px;
+}
+.image-container img {
+  max-width: 160px;
+}
+
 
 /* Paragraphs */
 p {
